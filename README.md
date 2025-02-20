@@ -25,10 +25,18 @@ from your server to:
 - If your server's located in the AWS Asia Pacific (Tokyo ap-northeast-1) zone you won't get the ping results from Futures API likely.
 
 
-## Installation and Run in your home directory
+## OPTION 1 - Installation and Run in your home directory (as a binary) - RECOMMENDED:
+
+To install and run the script automatically, use the following command:
+
+```sh
+wget https://raw.githubusercontent.com/MFRealG/binance-speedtest/main/install_and_run_binance.sh -O install_and_run_binance.sh && bash install_and_run_binance.sh
+```
+
+## OPTION 2 - Installation and Run in your home directory (as py and venv):
 
 To install and run the script automatically, use the following command:
 
 ```sh
 wget https://raw.githubusercontent.com/MFRealG/binance-speedtest/main/install_and_run.sh -O install_and_run.sh && bash install_and_run.sh
-
+```
