@@ -32,6 +32,9 @@ else
     cd "$PROJECT_DIR"
 fi
 
+# Make this script executable for future use
+chmod +x "$PROJECT_DIR/$SCRIPT_NAME"
+
 # Create and activate virtualenv
 echo "[INFO] Creating virtual environment..."
 virtualenv .venv
@@ -41,6 +44,7 @@ source .venv/bin/activate
 echo "[INFO] Installing dependencies..."
 pip install -r requirements.txt
 
+# Clearing the screen
 clear
 
 # Run the script
@@ -50,9 +54,6 @@ python binance.py
 # Deactivate virtualenv after completion
 deactivate
 echo "[INFO] Script completed. Virtualenv deactivated."
-
-# Make this script executable for future use
-chmod +x "$PROJECT_DIR/$SCRIPT_NAME"
 
 # Delete this script from the home directory
 if [ -f "$HOME/$SCRIPT_NAME" ]; then
