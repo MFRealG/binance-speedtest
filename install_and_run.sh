@@ -49,7 +49,8 @@ clear
 
 # Run the script
 echo "[INFO] Running the script..."
-echo ""
+echo " "
+echo " "
 python binance.py
 
 # Deactivate virtualenv after completion
