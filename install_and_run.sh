@@ -41,6 +41,8 @@ source .venv/bin/activate
 echo "[INFO] Installing dependencies..."
 pip install -r requirements.txt
 
+clear
+
 # Run the script
 echo "[INFO] Running the script..."
 python binance.py
