@@ -4,6 +4,7 @@
 REPO_URL="https://github.com/MFRealG/binance-speedtest.git"
 PROJECT_DIR="$HOME/binance-speedtest"
 PYTHON_VERSION="python3"
+SCRIPT_NAME="install_and_run.sh"
 
 # Check if Python is installed
 if ! command -v $PYTHON_VERSION &> /dev/null
@@ -40,8 +41,6 @@ source .venv/bin/activate
 echo "[INFO] Installing dependencies..."
 pip install -r requirements.txt
 
-clear
-
 # Run the script
 echo "[INFO] Running the script..."
 python binance.py
@@ -49,3 +48,15 @@ python binance.py
 # Deactivate virtualenv after completion
 deactivate
 echo "[INFO] Script completed. Virtualenv deactivated."
+
+# Make this script executable for future use
+echo "[INFO] Making this script executable for future use..."
+chmod +x "$PROJECT_DIR/$SCRIPT_NAME"
+
+# Delete this script from the home directory
+if [ -f "$HOME/$SCRIPT_NAME" ]; then
+    echo "[INFO] Deleting the initial installation script..."
+    rm "$HOME/$SCRIPT_NAME"
+fi
+
+echo "[INFO] Setup completed. You can now run the script from $PROJECT_DIR."
