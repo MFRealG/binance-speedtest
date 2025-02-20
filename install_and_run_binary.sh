@@ -34,7 +34,6 @@ echo " "
 
 # Delete this script from the home directory
 if [ -f "$HOME/$SCRIPT_NAME" ]; then
-    echo "[INFO] Deleting the installation script..."
     rm "$HOME/$SCRIPT_NAME"
 fi
 
