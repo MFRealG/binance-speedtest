@@ -52,13 +52,11 @@ deactivate
 echo "[INFO] Script completed. Virtualenv deactivated."
 
 # Make this script executable for future use
-echo "[INFO] Making this script executable for future use..."
 chmod +x "$PROJECT_DIR/$SCRIPT_NAME"
 
 # Delete this script from the home directory
 if [ -f "$HOME/$SCRIPT_NAME" ]; then
-    echo "[INFO] Deleting the initial installation script..."
     rm "$HOME/$SCRIPT_NAME"
 fi
 
-echo "[INFO] Setup completed. You can now run the script from $PROJECT_DIR."
+echo "[INFO] Setup completed. You can now run the script from $PROJECT_DIR/install_and_run.sh"
