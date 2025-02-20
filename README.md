@@ -15,18 +15,16 @@ from your server to:
 - [wss://fstream.binance.com](wss://fstream.binance.com/ws)
 - [wss://stream.binance.com:9443](wss://stream.binance.com:9443/ws/!ticker@arr)
 
-<b>No API keys needed.
-
-You will get the results in results.txt</b>
-
-
 
 ## Warinings
-- <b>Outgoing/Outbond/Egress ports should be opened: 443 TCP, 80 TCP, 9443 TCP</b>
+- <b>Run in your home directory!
+- Outgoing/Outbond/Egress ports should be opened: 443 TCP, 80 TCP, 9443 TCP</b>
+- No API keys needed.
+- You will get the results in results.txt
 - If your server's located in the AWS Asia Pacific (Tokyo ap-northeast-1) zone you won't get the ping results from Futures API likely.
 
 
-## Installation and Run
+## Installation and Run in your home directory
 
 To install and run the script automatically, use the following command:
 
