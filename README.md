@@ -31,7 +31,7 @@ Installation and Run in your home directory (as a binary):
 To install and run the script automatically, use the following command:
 
 ```sh
-wget https://raw.githubusercontent.com/MFRealG/binance-speedtest/main/install_and_run_binance.sh -O install_and_run_binance.sh && bash install_and_run_binance.sh
+wget https://raw.githubusercontent.com/MFRealG/binance-speedtest/main/install_and_run_binary.sh -O install_and_run_binary.sh && bash install_and_run_binary.sh
 ```
 
 ## Option 2
