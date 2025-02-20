@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Clearing the screen
+clear
+
 # Configuration
 REPO_URL="https://github.com/MFRealG/binance-speedtest.git"
 PROJECT_DIR="$HOME/binance-speedtest"
