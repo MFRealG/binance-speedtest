@@ -15,7 +15,10 @@ from your server to:
 - [wss://fstream.binance.com](wss://fstream.binance.com/ws)
 - [wss://stream.binance.com:9443](wss://stream.binance.com:9443/ws/!ticker@arr)
 
-<b>No API keys needed.</b>
+<b>No API keys needed.
+
+You will get the results in results.txt</b>
+
 
 
 ## Warinings
